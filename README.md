@@ -11,3 +11,16 @@ Create files index.html and style.css or make OnePage style webpage in React/Ang
 </br>
 <a href="http://thinkpixellab.com/" target="_blank"><img src="img/s2.png" alt="Pixel Lab"></a>
 </p>
+
+## Instruction
+
+```bash
+$ git clone https://github.com/TechManiaCode/HTMLCSS.git
+$ git branch $(example jk_htmlcss)
+$ git switch jk_htmlcss
+$ git commit [1] or git commit -m "....comment..."
+$ git push -u origin --all
+
+```
+
+- [1] When we will type the command `git commit` git open your default code editor. Change setting with `git config core.editor vim`
