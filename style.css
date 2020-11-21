@@ -1,6 +1,0 @@
-/* Testowo aby ogarnąć gita piszę jak na razie wszystko w vim'e  */
-*, *::before, *::after {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
