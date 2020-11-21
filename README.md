@@ -19,7 +19,7 @@ $ git clone https://github.com/TechManiaCode/HTMLCSS.git
 $ git branch $(example jk_htmlcss)
 $ git switch jk_htmlcss
 $ git commit [1] or git commit -m "....comment..."
-$ git push -u origin --all
+$ git push
 
 ```
 
