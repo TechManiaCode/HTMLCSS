@@ -6,104 +6,143 @@
     <meta charset="utf-8">
     <meta name="author" content="Mateusz Kmieć">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CodersCamp | Projekt 1 - HTML i CSS</title>
-    <meta name="description"
-        content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
-    <link rel="stylesheet" href="style.css">
+    <title>Businness Card - Mateusz Kmieć</title>
+    <meta name="description" content="Haivex Portfolio">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b64ffabfa5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
     <nav class="sticky-nav">
-            <div class="sticky-nav__logo">
-                <img src="photos/martial-arts.png">
-                <h1>Haivex</h1>
-            </div>
-            <ol class="sticky-nav__links">
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ol>
+        <a href="#top" class="sticky-nav__logo">
+            <img src="photos/martial-arts.png" alt="page logo">
+            <h1>Haivex</h1>
+        </a>
+        <ol class="sticky-nav__links">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ol>
     </nav>
     <header class="important-info">
         <section class="banner">
             <img class="banner__photo" src="photos/pexels-caleb-oquendo-3023756.jpg" alt="Martial Arts Image">
             <section class="banner__text">
                 <h2>Hello World</h2>
-                <h3>My name is Mateusz</h3>
-                <div class="socials">
-
+                <h2>My name is Mateusz</h2>
+                <div class="banner-socials">
+                    <a href="https://www.facebook.com/mateusz.kmiec.796" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/mateusz-kmie%C4%87-2437a01b9/" target="_blank"> <i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Haivex" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </section>
         </section>
-        <section class="cooperation">
-            <p>See my CV and write to me if you want a co-opeeration</p>
-            <button class="cooperation__contact">Contact me</button>
-            <button class="cooperation__cv">Check my CV</button>
+        <section class="co-operation">
+            <p>See my CV and write to me if you want a co-opeeration!</p>
+            <button class="button co-operation__contact">Contact me</button>
+            <button class="button co-operation__cv">Check my CV</button>
         </section>
     </header>
     <main class="info">
         <section class="info__about-me">
-           <div class="avatar-container">
-                <img src="photos/avatar.jpg">
-           </div>
-           <div class="basic-about">
-               <strong>Name: </strong>Mateusz
-               <strong>Age: </strong>21
-               <strong>E-mail: </strong>email@domain.com
-               <strong>Telephone: </strong>123-456-789
-           </div>
-           <div class="descripton-about">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam totam ea veniam dignissimos maiores non nostrum illum, dolorem eum at porro pariatur quo, dicta excepturi nobis repudiandae adipisci sit, delectus explicabo fugiat! Molestiae enim dolore numquam animi neque accusantium, esse eligendi dolorum, minus sapiente fugiat!</p>
-           </div>
+            <h3 id="about-me" class="section-header">About me</h3>
+            <div class="about-me-container">
+                <div class="avatar-container">
+                    <img src="photos/avatar.jpg" alt="photo of myself">
+                </div>
+                <div class="basic-about">
+                    <p><strong>Name: </strong>Mateusz</p>
+                    <p><strong>Age: </strong>21</p>
+                    <p><strong>E-mail: </strong>email@domain.com</p>
+                    <p><strong>Telephone: </strong>123-456-789</p>
+                </div>
+                <div class="description-about">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam totam ea veniam dignissimos
+                        maiores non nostrum illum, dolorem eum at porro pariatur quo, dicta excepturi nobis repudiandae
+                        adipisci sit, delectus explicabo fugiat! Molestiae enim dolore numquam animi neque accusantium,
+                        esse eligendi dolorum, minus sapiente fugiat!</p>
+                </div>
+            </div>
         </section>
         <section class="info__skills">
-            <figure>
-                <img src="">
-                <figcaption>HTML</figcaption>
-            </figure>
-            <figure>
-                <img src="">
-                <figcaption>CSS</figcaption>
-            </figure>
-            <figure>
-                <img src="">
-                <figcaption>JS</figcaption>
-            </figure>
+            <h3 id="skills" class="section-header">Skills</h3>
+            <div class="skills-container">
+                <figure>
+                    <i class="fab fa-html5"></i>
+                    <figcaption>HTML</figcaption>
+                </figure>
+                <figure>
+                    <i class="fab fa-css3-alt"></i>
+                    <figcaption>CSS</figcaption>
+                </figure>
+                <figure>
+                    <i class="fab fa-js-square"></i>
+                    <figcaption>JS</figcaption>
+                </figure>
+            </div>
         </section>
         <section class="info__portfolio">
-            <div class="portfolio-tile">1</div>
-            <div class="portfolio-tile">2</div>
-            <div class="portfolio-tile">3</div>
-            <div class="portfolio-tile">4</div>
-            <div class="portfolio-tile">5</div>
-            <div class="portfolio-tile">6</div>
+            <h3 id="portfolio" class="section-header">Portfolio</h3>
+            <div class="portfolio-container">
+                <div class="portfolio-tile">
+                    <img src="photos/pexels-pixabay-163403.jpg" alt="boxer">
+                </div>
+                <div class="portfolio-tile">
+                    <img src="photos/pexels-bakr-magrabi-3527091.jpg" alt="man with sword">
+                </div>
+                <div class="portfolio-tile">
+                    <img src="photos/pexels-gleb-krasnoborov-2628206.jpg" alt="two boxers">
+                </div>
+                <div class="portfolio-tile">
+                    <img src="photos/pexels-haste-leart-v-690598.jpg" alt="five people in some positions">
+                </div>
+            </div>
         </section>
         <section class="contact">
-            <section class="contact__instructions">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi necessitatibus molestiae totam quas. Cumque odio fugit maiores nostrum delectus non id exercitationem iure assumenda aperiam? Aut sit exercitationem eum maiores?
-            </section>
-            <section class="contact__address">
-                <span>Mateusz</span>
-                <span>Poland, Warsaw</span>
-                <span>ul. Warszawska 12/3 45-678</span>
-                <span>+48 123-456-789</span>
-                <span>email@domain.com</span>
-                <div class="socials">
-    
+            <h3 id="contact" class="section-header">Contact</h3>
+            <div class="contact-container">
+                <div class="contact-left-container">
+                    <section class="contact__instructions">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <p>Please describe your question. Send me a message and I will answer you as soon as possible!
+                        </p>
+                    </section>
+                    <section class="contact__address">
+                        <div class="form-socials">
+                            <a href="https://www.facebook.com/mateusz.kmiec.796" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/mateusz-kmie%C4%87-2437a01b9/" target="_blank"> <i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Haivex" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        <span>Mateusz</span>
+                        <span>Poland, Warsaw</span>
+                        <span>ul. Warszawska 12/3 45-678</span>
+                        <a href="tel:+48123456789" class="tel">+48 123-456-789</a>
+                        <a href="mailto:email@domain.com" class="email">email@domain.com</a>
+                    </section>
                 </div>
-            </section>
-            <form class="contact__form" method="post" action="/send">
-                <input type="text" placeholder="Imię">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Topic">
-                <textarea placeholder="Message"></textarea>
-            </form>
+                <form class="contact__form" method="post" action="/send">
+                    <h3 class="section-header form-header">Let's start!</h3>
+                    <input name="firstname" type="text" placeholder="Imię">
+                    <input name="email" type="email" placeholder="E-mail">
+                    <input name="topic" type="text" placeholder="Topic">
+                    <textarea name="message" placeholder="Message" rows="10"></textarea>
+                    <input class="button submit" value="Send" type="submit">
+                </form>
+            </div>
         </section>
     </main>
     <footer class="copyright-licenses">
         <div class="licenses">
-            <p>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+            <p>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors
+                    Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
             <p>Photos from Pexels</p>
         </div>
         <div class="copyright">Copyright &copy; Haivex</div>
