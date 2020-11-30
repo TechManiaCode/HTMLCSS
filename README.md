@@ -1,5 +1,3 @@
 # sebastianluc.github.io
-Website
-adsaf
-sdafsda
-sdfa
+
+Presentation [link to webpage](https://sebastianluc.github.io/) static page.
