@@ -19,7 +19,7 @@ $ git clone https://github.com/TechManiaCode/HTMLCSS.git
 $ git branch $(example jk_htmlcss)
 $ git switch jk_htmlcss
 $ git commit [1] or git commit -m "....comment..."
-$ git push
+$ git push (First time after created the branch locally. `git push --set-upstream origin $name_branch`)
 
 ```
 
